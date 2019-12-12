@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid red;
+    display: grid;
+    grid-template: repeat(4, minmax(100px, 1fr))/repeat(4, 1fr);
+}
+
+.box {
+    border: 2px solid blue;
+    text-align: center;
+}
